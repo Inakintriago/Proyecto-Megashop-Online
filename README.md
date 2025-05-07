@@ -1,48 +1,48 @@
-# Megashop Online - Proyecto de A/B Testing
+# Megashop Online - A/B Testing Project
 
-## 📊 Descripción del Proyecto
+## 📊 Project Description
 
-En este proyecto, trabajas como analista en una tienda online que ha recopilado una serie de hipótesis sobre cómo aumentar los ingresos. El objetivo es priorizar estas hipótesis, lanzar un test A/B y analizar los resultados para tomar decisiones informadas.
+In this project, you work as an analyst for an online store that has gathered a series of hypotheses on how to increase revenue. The goal is to prioritize these hypotheses, run an A/B test, and analyze the results to make informed decisions.
 
-## 🎯 Objetivos
+## 🎯 Objectives
 
-### Parte 1: Priorizar Hipótesis
+### Part 1: Prioritize Hypotheses
 
-1. **Framework ICE**:
-   - Evaluación de las hipótesis utilizando los criterios de **Reach**, **Impact**, **Confidence** y **Effort**.
-   - Cálculo de la puntuación **ICE** para cada hipótesis y ordenación en función de la prioridad.
+1. **ICE Framework**:
+   - Evaluate hypotheses using the **Reach**, **Impact**, **Confidence**, and **Effort** criteria.
+   - Calculate the **ICE** score for each hypothesis and rank them based on priority.
 
-2. **Framework RICE**:
-   - Evaluación de las hipótesis utilizando los mismos criterios más el esfuerzo.
-   - Cálculo de la puntuación **RICE** para cada hipótesis y ordenación en función de la prioridad.
+2. **RICE Framework**:
+   - Evaluate hypotheses using the same criteria plus effort.
+   - Calculate the **RICE** score for each hypothesis and rank them based on priority.
 
-3. Comparación de los resultados entre los marcos **ICE** y **RICE**.
+3. Compare the results between the **ICE** and **RICE** frameworks.
 
-### Parte 2: Análisis del Test A/B
+### Part 2: A/B Test Analysis
 
-1. **Gráfico de Ingreso Acumulado**: Visualización del ingreso acumulado por grupo.
-2. **Gráfico de Tamaño Promedio de Pedido Acumulado**: Análisis de la evolución del tamaño promedio de los pedidos por grupo.
-3. **Diferencia Relativa en el Tamaño de Pedido Promedio**: Visualización de la diferencia entre los grupos A y B.
-4. **Tasa de Conversión**: Cálculo y visualización de la tasa de conversión diaria para cada grupo.
-5. **Gráfico de Dispersión del Número de Pedidos por Usuario**: Análisis de la distribución de los pedidos por usuario.
-6. **Percentiles de Pedidos por Usuario**: Identificación de anomalías en los pedidos.
-7. **Gráfico de Dispersión de los Precios de los Pedidos**: Visualización de la distribución de los precios de los pedidos.
-8. **Percentiles de Precios de los Pedidos**: Identificación de anomalías en los precios.
-9. **Análisis de Significancia Estadística**: Comparación de las diferencias de conversión y tamaño de pedido entre los grupos A y B.
+1. **Cumulative Revenue Chart**: Visualization of the cumulative revenue by group.
+2. **Cumulative Average Order Size Chart**: Analysis of the evolution of the average order size by group.
+3. **Relative Difference in Average Order Size**: Visualization of the difference between groups A and B.
+4. **Conversion Rate**: Calculate and visualize the daily conversion rate for each group.
+5. **Scatter Plot of Orders Per User**: Analysis of the distribution of orders per user.
+6. **Percentiles of Orders Per User**: Identification of anomalies in the number of orders.
+7. **Scatter Plot of Order Prices**: Visualization of the distribution of order prices.
+8. **Percentiles of Order Prices**: Identification of anomalies in prices.
+9. **Statistical Significance Analysis**: Comparison of the conversion and order size differences between groups A and B.
 
-## 📈 Resultados y Decisiones
+## 📈 Results and Decisions
 
-### Análisis de Conversión y Tamaño de Pedido
+### Conversion and Order Size Analysis
 
-- **Tasa de Conversión**: El grupo B mostró una tasa de conversión superior (0.0310 frente a 0.0268), indicando que el grupo B tiene un rendimiento superior en términos de conversión.
-  
-- **Tamaño Promedio de Pedido**: No se observó una diferencia estadísticamente significativa en el tamaño promedio de pedido entre los grupos (valor p = 0.4041), lo que sugiere que las diferencias en la conversión no están impulsadas por el tamaño de los pedidos.
+- **Conversion Rate**: Group B showed a higher conversion rate (0.0310 vs. 0.0268), indicating that group B performs better in terms of conversion.
 
-### 💡 Decisión
+- **Average Order Size**: No statistically significant difference was observed in the average order size between the groups (p-value = 0.4041), suggesting that the differences in conversion are not driven by the order size.
 
-**Parar la prueba y considerar al grupo B como el líder**:  
-Dado que el grupo B presenta una tasa de conversión significativamente superior y no hay cambios relevantes en el tamaño de los pedidos, la decisión es concluir la prueba y considerar a B como el grupo líder.
+### 💡 Decision
 
-## 🏁 Conclusión
+**Stop the test and consider group B as the leader**:  
+Since group B has a significantly higher conversion rate and no significant changes in the order size, the decision is to conclude the test and consider group B as the leading group.
 
-El análisis de la prueba A/B sugiere que el grupo B tiene un rendimiento superior en términos de conversión, lo que justifica tomarlo como el grupo líder, aunque no se hayan observado cambios significativos en el tamaño de los pedidos.
+## 🏁 Conclusion
+
+The A/B test analysis suggests that group B performs better in terms of conversion, justifying its consideration as the leading group, even though no significant changes in the order size were observed.
